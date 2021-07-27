@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.navbar {
+
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #000 !important;
+}
+
+.product-card:nth-child(1) {
+  z-index: 999;
+  position: absolute;
+}
+
+.product-card:nth-child(2) {
+  position: absolute;
+  margin-top: 10rem;
+  margin-right: 15rem;
+}
+
+.product-card:nth-child(3) {
+  margin-top: 14rem;
+  margin-left: 15rem;
+}
