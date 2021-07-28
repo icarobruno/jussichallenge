@@ -1,6 +1,15 @@
+@font-face {
+  font-family: Barlow;
+  src: url("../fonts/Barlow/Barlow-Regular.ttf");
+}
+
 body {
   margin: 0;
   padding: 0;
+}
+
+span, p, h1, h2, h3, h4, button {
+  font-family: Barlow !important;
 }
 
 .container,
@@ -14,7 +23,6 @@ body {
 }
 
 .navbar {
-
   padding-left: 2rem;
   padding-right: 2rem;
 }
@@ -31,10 +39,10 @@ body {
 .product-card:nth-child(2) {
   position: absolute;
   margin-top: 10rem;
-  margin-right: 15rem;
+  margin-right: 16rem;
 }
 
 .product-card:nth-child(3) {
-  margin-top: 14rem;
+  margin-top: 12.5rem;
   margin-left: 15rem;
 }
