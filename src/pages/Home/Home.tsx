@@ -17,6 +17,7 @@ import {
 import { products } from "../../services/utils";
 import Shops from "../../components/Shops/Shops";
 import Solutions from "../../components/Solutions/Solutions";
+import AboutJussi from "../../components/AboutJussi/AboutJussi";
 
 export default function Home() {
   return (
@@ -42,6 +43,7 @@ export default function Home() {
       </Section>
       <Shops />
       <Solutions />
+      <AboutJussi />
     </Container>
   );
 }
