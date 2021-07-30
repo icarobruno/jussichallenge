@@ -19,7 +19,7 @@ export default function Solutions() {
   return (
     <Container>
       <TitleContainer>
-        <TitleHash>//</TitleHash>
+        <TitleHash>{"//"}</TitleHash>
         <TitleText>Nossas soluções</TitleText>
       </TitleContainer>
       <CardsContainer>
