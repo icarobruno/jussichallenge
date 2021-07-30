@@ -20,11 +20,8 @@ export default function Header() {
             <Nav.Link href="#pricing">Conheça a Jüssi</Nav.Link>
           </Nav>
           <Nav>
-            <Nav.Link href="#deets">More deets</Nav.Link>
-            <Nav.Link eventKey={2} href="#memes">
-              Login
-            </Nav.Link>
-            <Nav.Link eventKey={2} href="#memes">
+            <Nav.Link>Login</Nav.Link>
+            <Nav.Link>
               <ShoppingCart />
             </Nav.Link>
           </Nav>
