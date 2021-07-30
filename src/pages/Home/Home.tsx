@@ -16,6 +16,7 @@ import {
 
 import { products } from "../../services/utils";
 import Shops from "../../components/Shops/Shops";
+import Solutions from "../../components/Solutions/Solutions";
 
 export default function Home() {
   return (
@@ -40,6 +41,7 @@ export default function Home() {
         </RightSection>
       </Section>
       <Shops />
+      <Solutions />
     </Container>
   );
 }
