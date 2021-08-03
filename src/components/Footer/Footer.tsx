@@ -12,9 +12,9 @@ export default function Footer() {
         <Logo alt="wpp-logo" src={WppLogo} />
       </LogoContainer>
       <IconsContainer>
-        <Facebook />
-        <Instagram />
-        <Linkedin />
+        <Facebook size={18}/>
+        <Instagram size={18} className="mx-2"/>
+        <Linkedin size={18}/>
       </IconsContainer>
     </Container>
   );

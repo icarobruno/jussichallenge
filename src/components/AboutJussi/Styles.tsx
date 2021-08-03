@@ -6,6 +6,10 @@ export const Container = styled.section`
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
+
+  @media only screen and (max-width: 1100px) {
+    flex-wrap: wrap;
+  }
 `;
 
 export const About = styled.div`
@@ -14,6 +18,13 @@ export const About = styled.div`
   flex-direction: column;
   padding-top: 1rem;
   padding-left: 15%;
+
+  @media only screen and (max-width: 1100px) {
+    padding-left: 0;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
 `;
 
 export const AboutTitle = styled.h2`
@@ -22,6 +33,10 @@ export const AboutTitle = styled.h2`
   font-style: normal;
   font-weight: bold;
   font-size: 32px;
+
+  @media only screen and (max-width: 1100px) {
+    width: 100%;
+  }
 `;
 
 export const AboutText = styled.span`
@@ -30,6 +45,10 @@ export const AboutText = styled.span`
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
+
+  @media only screen and (max-width: 1100px) {
+    width: 100%;
+  }
 `;
 
 export const AboutButton = styled.button`
@@ -41,12 +60,21 @@ export const AboutButton = styled.button`
   border-radius: 6px;
   outline: none;
   background: transparent;
+
+  @media only screen and (max-width: 1100px) {
+    width: 80%;
+    margin-bottom: 2rem;
+  }
 `;
 
 export const FigureAbout = styled.div`
   width: 50%;
   display: flex;
   background-color: #f2f2f2;
+
+  @media only screen and (max-width: 1100px) {
+    width: 100%;
+  }
 `;
 
 export const FigureImage = styled.img`
@@ -55,4 +83,19 @@ export const FigureImage = styled.img`
   height: 520px;
   position: absolute;
   align-self: center;
+
+  @media only screen and (min-width: 1630px) {
+    right: 20%;
+  }
+
+  @media only screen and (min-width: 1101px) and (max-width: 1400px) {
+    right: 5%;
+  }
+
+  @media only screen and (max-width: 1100px) {
+    right: 0%;
+    position: unset;
+    width: 100%;
+    height: 315px;
+  }
 `;

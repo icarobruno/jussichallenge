@@ -18,4 +18,9 @@ export const Title = styled.h2`
   font-size: 32px;
   text-transform: uppercase;
   text-align: center;
+
+  @media only screen and (max-width: 768px) {
+    width: 90%;
+    font-size: 28px;
+  }
 `;

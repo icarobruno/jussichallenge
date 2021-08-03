@@ -6,6 +6,7 @@
 body {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 
 span,
@@ -45,7 +46,7 @@ button {
 .product-card:nth-child(2) {
   position: absolute;
   margin-top: 10rem;
-  margin-right: 16rem;
+  margin-left: -16rem;
 }
 
 .product-card:nth-child(3) {
