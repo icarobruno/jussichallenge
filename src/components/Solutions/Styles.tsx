@@ -11,6 +11,10 @@ export const Container = styled.section`
   @media only screen and (max-width: 768px) {
     padding: 0 0;
   }
+
+  @media only screen and (min-width: 768px) and (max-width: 1196px) {
+    padding: 3rem 3rem;
+  }
 `;
 
 export const TitleContainer = styled.div`
