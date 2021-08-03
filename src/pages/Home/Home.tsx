@@ -19,6 +19,8 @@ import Shops from "../../components/Shops/Shops";
 import Solutions from "../../components/Solutions/Solutions";
 import AboutJussi from "../../components/AboutJussi/AboutJussi";
 import VtexInfo from "../../components/VtexInfo/VtexInfo";
+import Newsletter from "../../components/Newsletter/Newsletter";
+import Footer from "../../components/Footer/Footer";
 
 export default function Home() {
   return (
@@ -46,6 +48,8 @@ export default function Home() {
       <Solutions />
       <AboutJussi />
       <VtexInfo />
+      <Newsletter />
+      <Footer />
     </Container>
   );
 }
