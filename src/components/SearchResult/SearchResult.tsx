@@ -59,7 +59,7 @@ export default function SearchResult(props: SearchResultProps) {
             <SpanText>Nenhum produto foi encontrado</SpanText>
           )
         ) : (
-          <></>
+          <SpanText>Carregando...</SpanText>
         )}
       </Modal.Body>
       <Modal.Footer></Modal.Footer>
