@@ -20,7 +20,7 @@ export const Title = styled.h2`
   text-align: center;
 
   @media only screen and (max-width: 768px) {
-    width: 100%; 
+    width: 90%; 
     font-size: 28px;
   }
 `;
