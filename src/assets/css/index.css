@@ -8,7 +8,13 @@ body {
   padding: 0;
 }
 
-span, p, h1, h2, h3, h4, button {
+span,
+p,
+h1,
+h2,
+h3,
+h4,
+button {
   font-family: Barlow !important;
 }
 
@@ -45,4 +51,28 @@ span, p, h1, h2, h3, h4, button {
 .product-card:nth-child(3) {
   margin-top: 12.5rem;
   margin-left: 15rem;
+}
+
+.form-control {
+  background-color: transparent !important;
+  border: none !important;
+  border-bottom: 1px solid #03ffa5 !important;
+}
+
+.form-control::placeholder {
+  color: #fff !important;
+}
+
+.form-control:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.input-group-text {
+  background-color: transparent !important;
+  color: #03ffa5 !important;
+  text-transform: uppercase !important;
+  border: none !important;
+  border-bottom: 1px solid #03ffa5 !important;
+  cursor: pointer;
 }
