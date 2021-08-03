@@ -18,6 +18,7 @@ import { products } from "../../services/utils";
 import Shops from "../../components/Shops/Shops";
 import Solutions from "../../components/Solutions/Solutions";
 import AboutJussi from "../../components/AboutJussi/AboutJussi";
+import VtexInfo from "../../components/VtexInfo/VtexInfo";
 
 export default function Home() {
   return (
@@ -35,7 +36,7 @@ export default function Home() {
         <RightSection>
           {products.map((product, index) => (
             <ProductCard className="product-card" key={index}>
-              <ProductImage src={product.avatar} alt={product.text}/>
+              <ProductImage src={product.avatar} alt={product.text} />
               <ProductButton>{product.text}</ProductButton>
             </ProductCard>
           ))}
@@ -44,6 +45,7 @@ export default function Home() {
       <Shops />
       <Solutions />
       <AboutJussi />
+      <VtexInfo />
     </Container>
   );
 }
