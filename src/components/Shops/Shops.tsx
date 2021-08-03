@@ -11,11 +11,11 @@ export default function Shops() {
   return (
     <Container>
       <Text>Nossas principais lojas VTEX</Text>
-      <ArrowRight />
-      <Image src={Brastemp} />
-      <Image src={CompraCerta} />
-      <Image src={Consul} />
-      <Image src={TheBar} />
+      <ArrowRight className="d-md-block d-none"/>
+      <Image src={Brastemp} alt="Brastemp" />
+      <Image src={CompraCerta} alt="Compra-Certa" />
+      <Image src={Consul} alt="Consul" />
+      <Image src={TheBar} alt="The-Bar" />
     </Container>
   );
 }

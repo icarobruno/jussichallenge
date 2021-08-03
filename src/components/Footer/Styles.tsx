@@ -16,6 +16,10 @@ export const LogoContainer = styled.div`
   flex-direction: row;
   justify-content: center;
   align-items: center;
+
+  @media only screen and (max-width: 768px) {
+    width: 50%;
+  }
 `;
 
 export const Logo = styled.img``;
@@ -26,4 +30,8 @@ export const IconsContainer = styled.div`
   flex-direction: row;
   justify-content: center;
   align-items: center;
+
+  @media only screen and (max-width: 768px) {
+    width: 50%;
+  }
 `;

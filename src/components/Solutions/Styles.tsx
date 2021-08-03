@@ -7,6 +7,10 @@ export const Container = styled.section`
   flex-direction: row;
   flex-wrap: wrap;
   padding: 3rem 13rem;
+
+  @media only screen and (max-width: 768px) {
+    padding: 0 0;
+  }
 `;
 
 export const TitleContainer = styled.div`
@@ -31,6 +35,13 @@ export const CardsContainer = styled.div`
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
+
+  @media only screen and (max-width: 768px) {
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
 `;
 
 export const Card = styled.div`
@@ -44,6 +55,12 @@ export const Card = styled.div`
   border-radius: 4px;
   background-color: #fff;
   padding: 1rem 1rem;
+
+  @media only screen and (max-width: 768px) {
+    width: 80%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
 `;
 
 export const CardAvatar = styled.div`

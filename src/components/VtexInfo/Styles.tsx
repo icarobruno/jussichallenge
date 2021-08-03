@@ -18,6 +18,11 @@ export const Title = styled.h2`
   font-size: 32px;
   text-transform: uppercase;
   text-align: center;
+
+  @media only screen and (max-width: 768px) {
+    width: 100%; 
+    font-size: 28px;
+  }
 `;
 
 export const Span = styled.span`
@@ -32,4 +37,8 @@ export const Text = styled.span`
   font-style: normal;
   font-weight: 500;
   font-size: 32px;
+
+  @media only screen and (max-width: 768px) {
+    font-size: 25px;
+  }
 `;

@@ -8,6 +8,9 @@ export const Section = styled.section`
   background-color: #03ffa5;
   min-height: 560px;
   padding: 2rem 2rem;
+
+  @media only screen and (max-width: 768px) {
+  }
 `;
 
 export const LeftSection = styled.div`
@@ -15,10 +18,18 @@ export const LeftSection = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+
+  @media only screen and (max-width: 768px) {
+    width: 100%;
+  }
 `;
 
 export const RightSection = styled(LeftSection)`
   align-items: center;
+
+  @media only screen and (max-width: 768px) {
+    display: none;
+  }
 `;
 
 export const Title = styled.h2`
@@ -30,6 +41,11 @@ export const Title = styled.h2`
   text-transform: uppercase;
   margin-left: 20%;
   margin-top: 3rem;
+
+  @media only screen and (max-width: 768px) {
+    font-size: 50px;
+    margin-left: 0%;
+  }
 `;
 
 export const Text = styled(Title)`
@@ -47,6 +63,11 @@ export const Button = styled.button`
   margin-left: 20%;
   margin-top: 1.5rem;
   background-color: transparent;
+
+  @media only screen and (max-width: 768px) {
+    margin-left: 0%;
+    width: 80%;
+  }
 `;
 
 export const ProductCard = styled.div`
