@@ -29,8 +29,8 @@ export default function Header() {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="#features">Nossas soluções</Nav.Link>
-              <Nav.Link href="#pricing">Conheça a Jüssi</Nav.Link>
+              <Nav.Link href="/">Nossas soluções</Nav.Link>
+              <Nav.Link href="/">Conheça a Jüssi</Nav.Link>
             </Nav>
             <Nav>
               <SearchInput>

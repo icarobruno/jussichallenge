@@ -10,6 +10,7 @@ export const Section = styled.section`
   padding: 2rem 2rem;
 
   @media only screen and (max-width: 768px) {
+    min-height: 460px;
   }
 `;
 
