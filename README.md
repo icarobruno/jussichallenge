@@ -14,7 +14,7 @@ Para buildar o app, utilize o comando
 
 ### `yarn build ou npm build`
 
-Esse projeto utilizou Typescript em sua composicão, com estilizacão utilizando styleds components,
+Esse projeto utilizou Typescript em sua composição, com estilização utilizando styleds components,
 sendo modulado em componentes que compõe a home do site.
 
 ## Sobre a api

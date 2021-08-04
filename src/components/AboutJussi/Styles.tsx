@@ -24,6 +24,7 @@ export const About = styled.div`
     width: 100%;
     align-items: center;
     text-align: center;
+    padding: 0 1rem;
   }
 `;
 

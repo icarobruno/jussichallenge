@@ -6,7 +6,7 @@ export default function Newsletter() {
   return (
     <Container>
       <Title>receba novidades da nossa área de produtos digitais.</Title>
-      <InputGroup className="w-50 mt-5 px-5">
+      <InputGroup className="mt-5 px-5">
         <FormControl
           placeholder="Digite seu e-mail"
           aria-label="Digite seu e-mail"

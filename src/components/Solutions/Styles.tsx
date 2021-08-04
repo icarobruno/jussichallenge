@@ -26,6 +26,11 @@ export const TitleHash = styled.span`
   font-weight: bold;
   font-size: 32px;
   color: #03ffa5;
+
+  @media only screen and (max-width: 768px) {
+    margin-left: 1.5rem;
+    margin-top: .5rem;
+  }
 `;
 
 export const TitleText = styled.span`
@@ -64,6 +69,7 @@ export const Card = styled.div`
     width: 80%;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    margin-right: 0;
   }
 `;
 
